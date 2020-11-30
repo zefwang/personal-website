@@ -1,0 +1,26 @@
+[
+  {
+    "name": "SearchNEU",
+    "link": "https://searchneu.com/",
+    "description": "A project I have worked on as a part of Sandbox, this search engine is an alternative to Northeastern's Banner, with a better UX and faster searches. Built in JavaScript (and now TypeScript) with a PostgreSQL database.",
+    "picLink": "/projects/searchneu.png"
+  },
+  {
+    "name": "HBP Sponsorship Packet",
+    "link": "https://hackbeanpot.com/packet/",
+    "description": "This interactive sponsorship packet uses React extensively to make sure that the packet is engaging, informative, and most importantly, interactive. This allows prospective sponsors to fill out the packet and email us a copy. (Please reach out if you're interested in sponsoring HackBeanpot 2021 this February!",
+    "picLink": "/projects/hackbeanpot.png"
+  },
+  {
+    "name": "CrimePot",
+    "link": "https://github.com/kyleposluns/CrimePot",
+    "description": "Completed at HackBeanpot 2019, this web app scrapes a Boston government database and displays crime data using the Google Maps API. This was my first full-stack project and it was truly exciting to see everything connect together at the end of the weekend.",
+    "picLink": "/projects/crimepot.png"
+  },
+  {
+    "name": "See more on GitHub!",
+    "link": "https://github.com/zefwang",
+    "description": "Still interested? You can check out more of my work on Github.",
+    "picLink": "/projects/github.png"
+  }
+]

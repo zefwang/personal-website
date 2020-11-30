@@ -1,0 +1,46 @@
+.experience-div {
+  margin: 100px;
+}
+
+div[class^="job-object-"] {
+  margin-top: 30px;
+}
+
+div[class^="job-header-"] {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+div[class^="job-role-"] {
+  font-size: 30px;
+}
+
+div[class^="job-name-"] {
+  font-size: 24px;
+  color: #2e3532;
+}
+
+div[class^="job-dates-"] {
+  font-size: 20px;
+  color: #83c9f4;
+}
+
+div[class^="job-description-"] {
+  font-size: 20px;
+  color: #606060;
+}
+
+div[class^="job-tech-list-"] {
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+div[class^="tech-item-"] {
+  border: 1px solid #f4a261;
+  border-radius: 20px;
+  padding: 5px;
+  margin-right: 10px;
+}

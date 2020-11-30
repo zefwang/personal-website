@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Goldman Sachs",
+    "role": "Technology Summer Analyst",
+    "dates": "(Incoming) Summer 2021",
+    "website": "https://www.goldmansachs.com/",
+    "tech": [],
+    "description": "Excited to share that I will be working as a Technology Summer Analyst within the Controllers team next summer!"
+  },
+  {
+    "name": "Intuit",
+    "role": "Software Engineer Co-op",
+    "dates": "May - December 2020",
+    "website": "https://www.intuit.com/",
+    "tech": ["Java", "Spring", "Go", "MySQL","Kubernetes", "Docker"],
+    "description": "Software engineer, developing in Java (Spring) and Go. Work included building an API in Go that outputs metadata on metrics and developing the infrastructure (K8 cluster). Additionally, I built a filter for certain metrics in the QBO Java monolith and created an abstraction using AOP to decrease amount of code."
+  },
+  {
+    "name": "BusRight",
+    "role": "Backend Engineer",
+    "dates": "November 2019 - November 2020",
+    "website": "https://busright.com/",
+    "tech": ["TypeScript", "NodeJS","Google Cloud Functions", "Firebase", "Docker"],
+    "description": "Worked as a backend engineer, using JavaScript/TypeScript to build out features for a small startup. Projects included setting up persistent notifications, creating a password reset process, and beginning the conversion from JS to TS."
+  },
+  {
+    "name": "Sandbox",
+    "role": "Full Stack Developer",
+    "dates": "September 2019 - Present",
+    "website": "https://www.sandboxnu.com/",
+    "tech": ["TypeScript","NodeJS", "React","PostgreSQL"],
+    "description": "Member of a software consultancy that develops for researchers and the Northeastern community. In the past, I worked on the SearchNEU team, participating in projects such as a DB migration and creating React components to improve search filtering on the front-end."
+  },
+  {
+    "name": "HackBeanpot",
+    "role": "Core Team",
+    "dates": "May 2019 - Present",
+    "website": "https://hackbeanpot.com/",
+    "tech": ["JavaScript","React", "Python", "GatsbyJS", "CircleCI"],
+    "description": "Organizer for an annual Boston-based hackathon. Currently working in a Sponsorship x Tech role, where I have built an interactive sponsorship packet and a judging scheduler, both using React. In the past, as a member of the Sponsorship team, we raised $20,000. Also, currently leading the Project Logistics team and led the Judging team last year."
+  }
+]

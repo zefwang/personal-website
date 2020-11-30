@@ -1,0 +1,26 @@
+.project-div {
+  margin: 100px 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div[class^="project-individual"] {
+  max-width: 400px;
+  margin: 50px;
+  padding: 20px;
+  border: 5px solid #f4a261;
+  border-radius: 20px;
+
+  &:hover {
+    box-shadow: 5px 10px;
+  }
+}
+
+div[class^="project-name-"] {
+  font-size: 36px;
+  margin: 10px 0;
+}
+
+div[class^="project-description-"] {
+  font-size: 16px;
+}
