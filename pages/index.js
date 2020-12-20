@@ -1,6 +1,6 @@
 import React from "react";
-import Footer from "../Components/footer";
-import Header from "../Components/header";
+import Footer from "../components/footer";
+import Header from "../components/header";
 import About from "./about";
 import Meta from "../components/meta";
 
