@@ -34,7 +34,7 @@ const JobObj = ({jobJSON}) => {
     </div>
   )
 }
-
+ 
 const Experience = () => {
   return (
     <div>
