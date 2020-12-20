@@ -1,9 +1,8 @@
 import React from "react";
 
 import ExperienceJSON from "../public/experience.json";
-import Header from "./header";
-import Footer from "./footer";
-import Meta from "../components/meta";
+import Header from "../Components/header";
+import Footer from "../Components/footer";
 
 const JobObj = ({jobJSON}) => {
   const name = jobJSON["name"];
