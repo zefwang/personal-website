@@ -17,6 +17,7 @@ const Meta = ({title, desc, canonical}) => (
     <meta name="twitter:creator" content="@dnlwang5" />
     <link rel="icon" type="image/png" href="/public/favicon.ico" />
     <link rel="apple-touch-icon" href="/public/favicon.ico" />
+      <meta property="og:image" content="http://www.zefeng-wang.com/pro-pic.jpeg"/>
     <meta property="og:image:secure_url" content="https://www.zefeng-wang.com/pro-pic.jpeg"/>
     <meta property="og:image:type" content="image/jpeg"/>
     <meta name="twitter:image" content="https://www.zefeng-wang.com/pro-pic.jpeg" />
