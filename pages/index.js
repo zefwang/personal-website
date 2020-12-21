@@ -2,10 +2,16 @@ import React from "react";
 import Footer from "./footer";
 import Header from "./header";
 import About from "./about";
+import Meta from "../components/meta";
 
 export default function Home() {
   return (
     <div className="website-body">
+      <Meta
+        title="About Me | Zefeng Wang"
+        desc="Introduction of Zefeng (Daniel) Wang"
+        canonical="https://zefeng-wang.com"
+      />
       <Header />
       <section className="intro-page">
         <div className="intro-header">Hi, my name is</div>

@@ -3,6 +3,7 @@ import React from "react";
 import ExperienceJSON from "../public/experience.json";
 import Header from "./header";
 import Footer from "./footer";
+import Meta from "../components/meta";
 
 const JobObj = ({jobJSON}) => {
   const name = jobJSON["name"];
@@ -38,6 +39,11 @@ const JobObj = ({jobJSON}) => {
 const Experience = () => {
   return (
     <div>
+      <Meta
+        title="Experience | Zefeng Wang"
+        desc="Work Experience of Zefeng (Daniel) Wang"
+        canonical="https://zefeng-wang.com"
+      />
       <Header/>
       <div className="experience-div">
         {ExperienceJSON.map((exp) => {

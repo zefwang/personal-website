@@ -3,6 +3,7 @@ import Footer from "./footer";
 import Header from "./header";
 import ProjectsJSON from "../public/projects.json";
 import Image from "next/image";
+import Meta from "../components/meta";
 
 const ProjectObj = ({project}) => {
   const name = project["name"];
@@ -31,6 +32,11 @@ const ProjectObj = ({project}) => {
 const Projects = () => {
   return (
     <div>
+      <Meta
+        title="Projects | Zefeng Wang"
+        desc="Projects of Zefeng (Daniel) Wang"
+        canonical="https://zefeng-wang.com"
+      />
       <Header/>
       <div className="project-div">
         {ProjectsJSON.map((project) => {
