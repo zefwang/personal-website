@@ -1,0 +1,21 @@
+User-agent: Bingbot
+User-agent: Googlebot
+User-Agent: Googlebot-Image
+User-Agent: Googlebot-Mobile
+User-agent: Mediapartners-Google
+User-agent: MSNbot
+User-agent: Slurp
+User-agent: Twitterbot
+User-agent: DuckDuckBot
+Disallow:
+
+User-agent: *
+Disallow: /
+
+#
+# some specific bans
+#
+User-agent: Aboundexbot
+Disallow: /
+
+Sitemap: https://zefeng-wang.com/api/posts-sitemap
