@@ -43,4 +43,11 @@ div[class^="tech-item-"] {
   border-radius: 20px;
   padding: 5px;
   margin-right: 10px;
+  height: 100%;
+}
+
+@media only screen and (max-width: 900px) {
+  .experience-div {
+    margin: 100px 50px;
+  }
 }

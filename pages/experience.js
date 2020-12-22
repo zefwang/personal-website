@@ -3,6 +3,7 @@ import React from "react";
 import ExperienceJSON from "../public/experience.json";
 import Header from "../components/header";
 import Footer from "../components/footer";
+import Meta from "../components/meta";
 
 const JobObj = ({jobJSON}) => {
   const name = jobJSON["name"];
@@ -20,8 +21,8 @@ const JobObj = ({jobJSON}) => {
           <div className={`job-name-${name}`}>
             <a href={website} target="_blank" rel="noopener noreferrer">@ {name}</a>
           </div>
+          <div className={`job-dates-${dates}`}>{dates}</div>
         </div>
-        <div className={`job-dates-${dates}`}>{dates}</div>
       </div>
       <div className={`job-description-${name}`}>{description}</div>
       {techList.length > 0 &&
@@ -34,7 +35,7 @@ const JobObj = ({jobJSON}) => {
     </div>
   )
 }
- 
+
 const Experience = () => {
   return (
     <div>
