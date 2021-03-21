@@ -1,6 +1,5 @@
 import React from "react"
 import Image from "next/image";
-import Link from "next/link";
 
 const About = () => {
   const techList = ["Golang", "Java", "React", "Docker", "Kubernetes"];
@@ -12,9 +11,11 @@ const About = () => {
         through my technical skills that I continue to develop. I enjoy tackling challenges and hope to leave a lasting,
         positive impact.<br/><br/>
         I'm currently a student at Northeastern, studying Computer Science and Business Administration (concentration in
-        Finance), with a minor in Mathematics. I am also currently on co-op as a Software Engineer at Intuit, where I am
-        developing in Java and Go within SBSEG. In my free time, I can be found working on side projects (like this one),
-        learning more about the financial markets, or absorbing useless information on Reddit.<br/><br/>
+        Finance), with a minor in Mathematics. I'm currently a project lead at Sandbox, where I am working with a research
+        client on developing a multiplayer game that will be used in her reesearch. I also just finished up my first
+        co-op as a Software Engineer at Intuit, where I was developing in Java and Go within SBSEG. In my free time,
+        I can be found working on side projects (like this one), learning more about the financial markets, or
+        absorbing useless information on Reddit.<br/><br/>
         Some of the technologies I've been working with:
       </div>
       <ul>

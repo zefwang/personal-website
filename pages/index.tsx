@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className="website-body">
       <Meta
-        title="About Me | Zefeng Wang"
+        title="Zefeng Wang's Personal Website"
         desc="Introduction of Zefeng (Daniel) Wang"
         canonical="https://zefeng-wang.com"
       />
