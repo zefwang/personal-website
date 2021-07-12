@@ -5,6 +5,7 @@ import ProjectsJSON from "../public/projects.json";
 import Image from "next/image";
 import Meta from "../components/meta";
 
+// @ts-ignore
 const ProjectObj = ({project}) => {
   const name = project["name"];
   const link = project["link"];
