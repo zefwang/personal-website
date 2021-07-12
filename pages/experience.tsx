@@ -5,6 +5,7 @@ import Header from "../components/header";
 import Footer from "../components/footer";
 import Meta from "../components/meta";
 
+// @ts-ignore
 const JobObj = ({jobJSON}) => {
   const name = jobJSON["name"];
   const title = jobJSON["role"];
@@ -27,7 +28,7 @@ const JobObj = ({jobJSON}) => {
       <div className={`job-description-${name}`}>{description}</div>
       {techList.length > 0 &&
         <div className={`job-tech-list-${name}`} >
-          {techList.map((tech) => {
+          {techList.map((tech: string) => {
             return (<div className={`tech-item-${name}-${tech}`}>{tech}</div> )
           })}
         </div>
