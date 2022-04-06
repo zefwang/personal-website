@@ -1,3 +1,5 @@
+![Alt](https://repobeats.axiom.co/api/embed/95f0b2c4d660303d9701e4283f5649cb2e4f2e16.svg "Repobeats analytics image")
+
 ## My Personal Website
 
 Created using [Next.js](https://nextjs.org/) and bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) and ReactJS.
