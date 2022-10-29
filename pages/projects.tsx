@@ -41,7 +41,7 @@ const Projects = () => {
       <Header/>
       <div className="project-div">
         {ProjectsJSON.map((project) => {
-          return (<ProjectObj project={project}/> )
+          return (<ProjectObj key={project.name} project={project}/> )
         })}
       </div>
       <Footer/>
