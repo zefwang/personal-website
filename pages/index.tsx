@@ -8,18 +8,17 @@ export default function Home() {
   return (
     <div className="website-body">
       <Meta
-        title="Zefeng Wang's Personal Website"
+        title="Zefeng (Daniel) Wang"
         desc="Introduction of Zefeng (Daniel) Wang"
         canonical="https://zefeng-wang.com"
       />
       <Header />
       <section className="intro-page">
-        <div className="intro-header">Hi, my name is</div>
-        <div className="intro-name">Zefeng (Daniel) Wang.</div>
-        <div className="intro-one-liner">I solve problems using technology.</div>
+        <div className="intro-name">Hi, I'm Daniel.</div>
+        <div className="intro-one-liner">I like to solve problems using technology.</div>
         <div className="intro-sentence">
-          I'm a student at Northeastern University and an aspiring software engineer with interest in building
-          durable and scalable applications for the web.
+          I'm a software engineer at Datadog and recent graduate of Northeastern University with interest in building
+          durable and scalable web applications.
         </div>
       </section>
       <About/>

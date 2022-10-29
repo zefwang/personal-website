@@ -4,11 +4,6 @@
   min-height: 100vh;
 }
 
-.intro-header {
-  font-size: 32px;
-  color: #6BABA4;
-}
-
 .intro-name {
   padding: 30px 0 15px;
   font-size: 64px;
@@ -22,17 +17,13 @@
 
 .intro-sentence {
   padding-top: 30px;
-  font-size: 24px;
-  max-width: 700px;
+  font-size: 26px;
+  max-width: 900px;
 }
 
 @media only screen and (max-width: 900px) {
   .intro-page {
     padding: 30vh 20px 10vh;
-  }
-
-  .intro-header {
-    font-size: 24px;
   }
 
   .intro-name {

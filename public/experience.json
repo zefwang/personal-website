@@ -1,11 +1,19 @@
 [
   {
+    "name": "Datadog",
+    "role": "Software Engineer",
+    "dates": "June 2022 - Present",
+    "website": "https://www.datadoghq.com/",
+    "tech": ["Python (Flask)", "Go", "TypeScript (React)", "PSQL", "K8s"],
+    "description": "Engineer building the Incident Management product! Code monkey, on call engineer, whatever it takes to increase shareholder value"
+  },
+  {
     "name": "Goldman Sachs",
     "role": "Technology Summer Analyst",
-    "dates": "(Incoming) Summer 2021",
+    "dates": "June - August 2021",
     "website": "https://www.goldmansachs.com/",
-    "tech": [],
-    "description": "Excited to share that I will be working as a Technology Summer Analyst within the Controllers team next summer!"
+    "tech": ["Java", "Spark", "Internal tools"],
+    "description": "Worked as a Technology Summer Analyst within the Controllers team"
   },
   {
     "name": "Intuit",
@@ -20,13 +28,13 @@
     "role": "Backend Engineer",
     "dates": "November 2019 - November 2020",
     "website": "https://busright.com/",
-    "tech": ["TypeScript", "NodeJS","Google Cloud Functions", "Firebase", "Docker"],
+    "tech": ["TypeScript", "NodeJS", "Google Cloud Functions", "Firebase", "Docker"],
     "description": "Worked as a backend engineer, using JavaScript/TypeScript to build out features for a small startup. Projects included setting up persistent notifications, creating a password reset process, and beginning the conversion from JS to TS."
   },
   {
     "name": "Sandbox",
     "role": "Full Stack Developer",
-    "dates": "September 2019 - Present",
+    "dates": "September 2019 - April 2022",
     "website": "https://www.sandboxnu.com/",
     "tech": ["TypeScript","NodeJS", "React","PostgreSQL"],
     "description": "Member of a software consultancy that develops for researchers and the Northeastern community. In the past, I worked on the SearchNEU team, participating in projects such as a DB migration and creating React components to improve search filtering on the front-end."
@@ -34,7 +42,7 @@
   {
     "name": "HackBeanpot",
     "role": "Core Team",
-    "dates": "May 2019 - Present",
+    "dates": "May 2019 - December 2021",
     "website": "https://hackbeanpot.com/",
     "tech": ["JavaScript","React", "Python", "GatsbyJS", "CircleCI"],
     "description": "Organizer for an annual Boston-based hackathon. Currently working in a Sponsorship x Tech role, where I have built an interactive sponsorship packet and a judging scheduler, both using React. In the past, as a member of the Sponsorship team, we raised $20,000. Also, currently leading the Project Logistics team and led the Judging team last year."
