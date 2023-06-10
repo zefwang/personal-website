@@ -3,6 +3,7 @@ import Link from "next/link"
 import useIsMobile from "./useIsMobile";
 import { slide as Menu } from 'react-burger-menu';
 
+
 const Header = () => {
   const isMobile = useIsMobile();
 
@@ -17,14 +18,14 @@ const Header = () => {
           <Link href="/">About Me</Link>
           <Link href="/experience">Experience</Link>
           <Link href="/projects">Projects</Link>
-          <a className="resume" href="https://zefeng-wang.com/resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+          <a className="resume" href="https://zefeng-wang.com/resume" target="_blank" rel="noopener noreferrer">Resume</a>
         </div> :
         <div className="header-nav-mobile">
           <Menu right >
             <Link href="/" className="menu-time">About Me</Link>
             <Link href="/experience" className="menu-time">Experience</Link>
             <Link href="/projects" className="menu-time">Projects</Link>
-            <a className="resume" href="https://zefeng-wang.com/resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+            <a className="resume" href="https://zefeng-wang.com/resume" target="_blank" rel="noopener noreferrer">Resume</a>
           </Menu>
         </div>
       }
